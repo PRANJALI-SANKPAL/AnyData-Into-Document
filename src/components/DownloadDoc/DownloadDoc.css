@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+button {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover { 
+    background-color: rgb(189, 220, 247);
+}
